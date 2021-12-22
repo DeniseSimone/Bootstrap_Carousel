@@ -1,1 +1,47 @@
 @import "carousel.css";
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+/* General style for body and fonts */
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+h1 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 45px;
+  padding: 10px 15px;
+}
+h2 {
+  font-size: 25px;
+}
+h5 {
+  font-size: 16px;
+}
+p {
+  font-size: 14px;
+}
+/* Specific Styling */
+
+div.main-container {
+  width: 70%;
+  margin: 40px auto;
+}
+.container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+pre {
+  padding: 10px;
+  border-radius: 10px;
+}
+pre#bootstrap_links {
+  background-color: #F5F5F5;
+  height: 150px;
+  padding: 0;
+}
+pre#carousel_code {
+  background-color: #F5F5F5;
+}
+code.language-markup {
+  padding: 0;
+  margin: 0;
+}

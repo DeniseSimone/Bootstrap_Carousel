@@ -1,7 +1,10 @@
 h2 {
-  color: blue;
+  color: grey;
+  margin: 20px auto 35px;
 }
-
 .carousel.slide {
   margin: 10px auto;
+}
+.carousel.slide .carousel-item img {
+  border-radius: 20px;
 }
