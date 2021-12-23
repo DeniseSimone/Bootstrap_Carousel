@@ -8,7 +8,7 @@ body {
 h1 {
   font-family: 'Crimson Pro', serif;
   font-size: 45px;
-  padding: 10px 15px;
+  margin: 10px;
 }
 h2 {
   font-size: 25px;
@@ -26,6 +26,7 @@ div.main-container {
   margin: 40px auto;
 }
 .container {
+  padding: 0;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -45,4 +46,26 @@ code.language-markup {
   padding: 0;
   margin: 0;
   font-size: 13.5px;
+}
+
+/* Media Queries for div containers elements */
+@media screen and (max-width: 768px) {
+  div.main-container {
+    width: 95%;
+    margin: 20px auto;
+  }
+  .container {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  div.main-container {
+    width: 95%;
+    margin: 20px auto;
+  }
+  .container {
+    width: 90%;
+    margin: 20px auto;
+  }
 }

@@ -4,6 +4,7 @@ h2 {
 }
 .carousel.slide {
   margin: 10px auto;
+  width: 40%;
 }
 .carousel.slide .carousel-item img {
   border-radius: 20px;
@@ -13,4 +14,26 @@ h2 {
   border-radius: 20px;
   color: black;
   font-weight: 500;
+}
+
+/* Media Queries for Carousel Dimensions */
+@media screen and (max-width: 414px) {
+  .carousel.slide {
+    width: 95%;
+  }
+}
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  .carousel.slide {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+  .carousel.slide {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 1001px) {
+  .carousel.slide {
+    width: 50%;
+  }
 }
