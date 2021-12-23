@@ -47,6 +47,11 @@ code.language-markup {
   margin: 0;
   font-size: 13.5px;
 }
+span.img, span.title, span.img-description {
+  color: red;
+}
+
+
 
 /* Media Queries for div containers elements */
 @media screen and (max-width: 768px) {
